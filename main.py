@@ -19,6 +19,7 @@ def helloworld(resp):
         content = m['content']
         if "discord.gift" in content:
             print("Gift Detected")
+            print(str(content))
 
 
 
